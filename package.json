@@ -1,0 +1,39 @@
+{
+  "name": "use-utterances-ref",
+  "version": "0.1.0",
+  "description": "Generate ref with attached utterances element in React app.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "yamauz <yamauzy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn test && yarn clean && yarn esbuild && yarn tsc",
+    "prepare": "yarn build",
+    "esbuild": "node scripts/build.mjs",
+    "clean": "rm -rf ./dist",
+    "tsc": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.20.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/react": "^18.0.27",
+    "happy-dom": "^8.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.3"
+  }
+}
