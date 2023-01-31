@@ -19,6 +19,10 @@
     "test": "vitest",
     "test:watch": "vitest --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yamauz/use-utterances-ref.git"
+  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
