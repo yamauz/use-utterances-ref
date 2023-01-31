@@ -2,7 +2,7 @@
 
 A custom hook to make utterances available in React apps
 
-⚠️ ️You must install the GitHub Apps for utterances before using this library from [here](https://github.com/apps/utterances).
+⚠️ ️You must install the GitHub Apps for utterances from [here](https://github.com/apps/utterances) before using this library.
 
 ## Installation
 
